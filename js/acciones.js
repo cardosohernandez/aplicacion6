@@ -4,7 +4,7 @@
 	document.addEventListener("deviceready",function(){
 		
 		$('#beep').tap(function(){
-			navigator.notification.bee (3);
+			navigator.notification.beep (3);
 			});//tap beep
 		
 		$('#vibrar').tap(function (){
